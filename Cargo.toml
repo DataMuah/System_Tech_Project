@@ -1,0 +1,16 @@
+[package]
+name = "chat_server"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "server"
+path = "src/main.rs"
+
+[[bin]]
+name = "stress_test"
+path = "src/bin/stress_test.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+chrono = "0.4"

@@ -96,7 +96,7 @@ cargo run --bin stress_test -- 1000 3 192.168.0.10:8080   # 원격 서버 테스
 ## 📁 파일 구조
 
 ```
-chat_server/
+System_Tech_Project/
 │
 ├── Cargo.toml                      ← 의존성 및 바이너리 2개 정의
 │
