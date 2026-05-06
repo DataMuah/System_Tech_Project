@@ -12,6 +12,10 @@ name = "stress_test"
 path = "src/bin/stress_test.rs"
 
 [[bin]]
+name = "stress_test_1000"
+path = "src/bin/stress_test_1000.rs"
+
+[[bin]]
 name = "monitor"
 path = "src/bin/monitor.rs"
 
